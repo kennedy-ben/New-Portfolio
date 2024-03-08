@@ -6,6 +6,7 @@ import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import Hello from '../../assets/Hello.gif'
+
 export function Hero() {
   return (
     <Container id="home">
@@ -49,8 +50,6 @@ export function Hero() {
         </ScrollAnimation>
 
       </div>
-     
-
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
           <img src={Illustration} alt="Ilustração" />
